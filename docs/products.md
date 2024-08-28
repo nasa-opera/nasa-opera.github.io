@@ -22,6 +22,7 @@ Welcome to the **OPERA** products documentation page. This section provides deta
 
 | SDS Release | SDS Release Date | Product Version *                        | SAS Docker Version *                                             |
 | ----------- | ---------------- | ---------------------------------------- | ---------------------------------------------------------------- |
+| R2.2.0      |       2024-04-01 | RTC-S1: 1.0, CSLC-S1: 1.1, DSWx-HLS: 1.0 | RTC-S1: final_1.0.1, CSLC-S1: final_0.5.5, DSWx-HLS: final_4.1   |
 | R2.1.1      |       2023-11-17 | RTC-S1: 1.0, CSLC-S1: 1.0, DSWx-HLS: 1.0 | RTC-S1: final_1.0.1, CSLC-S1: final_0.5.4, DSWx-HLS: final_4.1   |
 | R2.1.0      |       2023-11-09 | RTC-S1: 1.0, CSLC-S1: 1.0, DSWx-HLS: 1.0 | RTC-S1: final_1.0.1, CSLC-S1: final_0.5.4, DSWx-HLS: final_4.1   |
 | R2 Final    |       2023-09-27 | RTC-S1: 1.0, CSLC-S1: 1.0, DSWx-HLS: 1.0 | RTC-S1: final_1.0.1, CSLC-S1: final_0.5.2, DSWx-HLS: final_4.1   |
