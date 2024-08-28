@@ -17,14 +17,14 @@ function HomepageHeader() {
         </Heading>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+          <Link className="button button--primary button--lg" to="/docs/products">
+            ⬇️ Products
+          </Link>
           <Link className="button button--primary button--lg" to="/docs/intro">
-            ✅ Get Started
+            📒 Docs
           </Link>
-          <Link className="button button--primary button--lg" to="/download">
-            ⬇️ Download Now
-          </Link>
-          <Link className="button button--primary button--lg" to="/contact">
-            📪 Contact
+          <Link className="button button--primary button--lg" to="/about">
+            ℹ️ About
           </Link>
         </div>
         <div className={styles.screenshotContainer}>
@@ -132,16 +132,15 @@ function GetStarted() {
         <h2 className="sectionTitle">Get Started</h2>
         <div className={styles.getStartedContent}>
           <div>
-            <h3>For Mission Planners</h3>
-            <Link to="/docs/mission-planners-guide" className={styles.link}>
-              Read the Mission Planners Guide
+            <h3>For Users</h3>
+            <Link to="/docs/products" className={styles.link}>
+              See our products
             </Link>
           </div>
           <div>
             <h3>For Developers</h3>
-            <p>Review the license and start your quick installation:</p>
-            <Link to="/docs/developers-guide" className={styles.link}>
-              Quick Start Installation
+            <Link to="/docs/intro" className={styles.link}>
+              Documentation for our software
             </Link>
           </div>
         </div>
