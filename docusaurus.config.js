@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OPERA',
-  tagline: 'Observational Products for End-Users from Remote Sensing Analysis (OPERA)',
+  title: 'OPERA Software Docs',
+  tagline: 'Observational Products for End-Users from Remote Sensing Analysis (OPERA) Software Documentation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,18 +74,15 @@ const config = {
         title: 'OPERA',
         logo: {
           alt: 'OPERA Logo',
-          src: 'img/logo.svg',
+          src: 'img/nasa-jpl-dark.png',
           href: '/', // Ensure clicking the logo returns to the homepage
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
-          },
-          {to: '/blog', label: 'News/Blog', position: 'left'},
-          {to: '/about', label: 'About', position: 'left'},
+          {to: '/docs/products', label: 'Product Releases', position: 'left'},
+          {to: '/docs/intro', label: 'Docs', position: 'left'},
+          {to: 'https://www.jpl.nasa.gov/go/opera', label: 'About', position: 'left'},
+          // {to: '/blog', label: 'News/Blog', position: 'left'},
+          // {to: '/about', label: 'About', position: 'left'},
           {
             href: 'https://github.com/nasa-opera/website',
             label: 'GitHub',
@@ -106,47 +103,46 @@ const config = {
             title: 'Resources',
             items: [
               {
+                label: 'Product Releases',
+                to: '/docs/products',
+              },
+              {
                 label: 'Documentation',
                 to: '/docs/intro',
               },
               {
-                label: 'Blog',
-                to: '/blog',
-              },
+                label: 'About',
+                to: 'https://www.jpl.nasa.gov/go/opera',
+              }
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Slack',
-                href: 'https://slack.yourdomain.com',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/nasa-opera/website',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/yourhandle',
-              },
+                href: 'https://www.jpl.nasa.gov/go/opera/resources/opera-code-repositories-and-resources',
+              }
             ],
           },
           {
             title: 'Contact',
             items: [
               {
-                label: 'Email Us',
-                href: 'mailto:contact@yourdomain.com',
+                label: 'Email',
+                href: 'mailto:opera.sep@jpl.nasa.gov'
+              },
+              {
+                label: 'Stakeholder Engagement Program',
+                href: 'https://www.jpl.nasa.gov/go/opera/stakeholder-engagement-program',
               },
             ],
           },
         ],
-        logo: {
-          alt: 'OPERA Logo',
-          src: 'img/logo.svg', // Optionally add a logo to the footer
-          href: '/', // Clicking the logo redirects to the homepage
-        },
         copyright: `Copyright © ${new Date().getFullYear()} California Institute of Technology ("Caltech"). U.S. Government sponsorship acknowledged. Contents licensed under Apache License Version 2.0.`,
       },
       prism: {

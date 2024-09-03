@@ -17,6 +17,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05); /* Softer background for highlighted code lines */
   --ifm-font-family-base: 'Open Sans', sans-serif; /* A clean, modern font */
   --ifm-heading-font-weight: 600; /* Slightly bolder headings */
+  --ifm-footer-link-color: #005b96;
 }
 
 /* Adjustments for dark mode */
@@ -30,6 +31,10 @@
   --ifm-color-primary-lightest: #b3e2ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-font-family-base: 'Open Sans', sans-serif;
+}
+
+.navbar__logo {
+  margin: 5px 20px 5px 10px;
 }
 
 /* Add styles for the navbar links */
@@ -192,4 +197,12 @@
   margin-bottom: 2rem;
   font-size: 2rem;
   color: #00467a;
+}
+
+footer a {
+  color: var(--ifm-footer-link-color) !important;
+}
+
+footer .footer__copyright {
+  font-size: 0.8em;
 }

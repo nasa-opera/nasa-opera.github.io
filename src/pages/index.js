@@ -18,22 +18,14 @@ function HomepageHeader() {
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--primary button--lg" to="/docs/products">
-            ⬇️ Products
+            📦 Product Releases
           </Link>
           <Link className="button button--primary button--lg" to="/docs/intro">
-            📒 Docs
+            📒 Software Docs
           </Link>
-          <Link className="button button--primary button--lg" to="/about">
-            ℹ️ About
+          <Link className="button button--primary button--lg" to="https://www.jpl.nasa.gov/go/opera">
+            ℹ️ About OPERA
           </Link>
-        </div>
-        <div className={styles.screenshotContainer}>
-          <img
-            src="/img/OPERA-overview.jpeg"
-            alt="OPERA Overview"
-            className={styles.screenshot}
-          />
-          <p className={styles.caption}>Firth River Yukon, Water Data. Credit: USGS/John Jones, Lava boiling out of the Kilauea Volcano, Volcano Data. Credit: ASI/NASA/JPL-Caltech, Fire fighting helicopter carry water bucket to extinguish the forest fire, Fire Data. Credit: Hansen/UMD/Google/USGS/NASA</p>
         </div>
       </div>
     </header>
@@ -44,21 +36,15 @@ function ProjectDescription() {
   return (
     <section className={styles.projectDescription}>
       <div className="container">
-        <h2 className="sectionTitle">About the OPERA Project</h2>
+        <h2 className="sectionTitle">Introduction</h2>
         <p>
-          Started in April 2021, the Observational Products for End-Users from Remote Sensing Analysis (OPERA) project at the Jet Propulsion Laboratory collects data from satellite radar and optical instruments to generate three products:
+          Welcome to the software docs website for Observational Products for End-Users from Remote Sensing Analysis (OPERA) project, from the Jet Propulsion Laboratory. 
         </p>
         <ul>
-          <li>A near-global Surface Water Extent product suite,</li>
-          <li>A near-global Surface Disturbance product suite, and</li>
-          <li>A North America Displacement product suite.</li>
+          <li>Learn more about OPERA at <a href="https://www.jpl.nasa.gov/go/opera">our official homepage</a></li>
+          <li>View <a href="/docs/products">our product release table</a> illustrating relationships between OPERA products and our software</li>
+          <li>Browse our <a href="/docs/intro">software documentation</a></li>
         </ul>
-        <p>
-          The first is generated from synthetic aperture radar (SAR) and optical data. The second is generated from optical data only. The third is generated from Interferometric SAR data. These products can be accessed through the links on our <a href="https://www.jpl.nasa.gov/go/opera/products">data products page</a>.
-        </p>
-        <p>
-          The OPERA data products and time series are derived from measurements made by the instruments onboard the Sentinel-1 A/B, Sentinel-2 A/B, and Landsat-8 satellites, to be augmented by the measurements from the radars on the SWOT and soon-to-be-launched NISAR satellites.
-        </p>
       </div>
     </section>
   );
@@ -196,13 +182,13 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <ProjectDescription />
-        <CustomerLogos />
+        {/* <CustomerLogos />
         <Testimonials />
         <ProductVideo />
         <HomepageFeatures />
         <GetStarted />
         <LearnMore />
-        <Sponsors />
+        <Sponsors /> */}
       </main>
     </Layout>
   );
