@@ -7,7 +7,7 @@ sidebar_label: Products
 
 # Products
 
-Welcome to the **OPERA** products documentation page. This section provides detailed information about OPERA products and their associated releases.
+Welcome to the **OPERA** products documentation page. This section provides information about OPERA products and their associated releases, along with links to resources to explore OPERA's products.
 
 ### Definitions
 
