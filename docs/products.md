@@ -24,15 +24,15 @@ Product releases for the Land Surface Disturbance product suite.  One set of pro
 | Product Name | Product Version | Release Date     | SAS Version                 | PGE Version |
 | ------------ | --------------- | ---------------- | --------------------------- | ----------- |
 | DIST-HLS     | 1.0             | 2023-02-28       | [0.1.0][dist_hls_sas_0.1.0] | n/a         |
-| DIST-S1      | 1.0             | expected 2026 |                             |             |
+| DIST-S1      | 1.0             | expected 2026    |                             |             |
 
 
 The following table has links to files and supporting documentation for each product.
 
 | Product Name   | Ancillaries | ATBD | Product Spec | Earthdata Search Link                                  |
 | -------------- | ----------- | ---- | ------------ | ------------------------------------------------------ |
-| DIST-ALERT-HLS |             |      |              | [OPERA_L3_DIST-ALERT-HLS_V1][dist_alert_hls_earthdata] |
-| DIST-ANN-HLS   |             |      |              | [OPERA_L3_DIST-ANN-HLS_V1][dist_ann_hls_earthdata]     |
+| DIST-ALERT-HLS |             | [DIST-ALERT-HLS ATBD][DIST-ALERT-HLS ATBD] | [DIST-HLS Product Spec][DIST-HLS Product Spec] | [OPERA_L3_DIST-ALERT-HLS_V1][dist_alert_hls_earthdata] |
+| DIST-ANN-HLS   |             | [DIST-ANN-HLS ATBD][DIST-ANN-HLS ATBD] | [DIST-HLS Product Spec][DIST-HLS Product Spec] | [OPERA_L3_DIST-ANN-HLS_V1][dist_ann_hls_earthdata]     |
 | DIST-S1        |             |      |              | expected 2026                                                      |
 
 
@@ -40,19 +40,19 @@ The following table has links to files and supporting documentation for each pro
 
 Product releases for the Dynamic Surface Water eXtent product suite. Products will come from multiple sources:  Harmonized Landsat & Sentinel-2 data (DSWx-HLS) product, Sentinel-1 data (DSWx-S1), and NISAR data (DSWx-NI).  You can find more information about these products here: [DSWx Product Suite](https://www.jpl.nasa.gov/go/opera/products/dswx-product-suite)
 
-| Product Name | Product Version | Release Date     | SAS Version                 | PGE Version                 |
-| ------------ | --------------- | ---------------- | --------------------------- | --------------------------- |
-| DSWx-HLS     | 1.0             | 2023-04-10       | [1.0.1][dswx_hls_sas_1.0.1] | [1.0.2][dswx_hls_pge_1.0.2] |
-| DSWx-S1      | 1.0             | 2024-08-16 |                             |                             |
-| DSWx-NI      | 1.0             | expected 2026 |                             |                             |
+| Product Name | Product Version | Release Date     | SAS Version                 | PGE Version                                                                    |
+| ------------ | --------------- | ---------------- | --------------------------- | ---------------------------------------------------------------------------- |
+| DSWx-HLS     | 1.0             | 2023-04-10       | [1.0.1][dswx_hls_sas_1.0.1] | [1.0.2 (docker)][dswx_hls_pge_docker_1.0.2] [1.0.2 (zip)][dswx_hls_pge_1.0.2] |
+| DSWx-S1      | 1.0             | 2024-08-16       | [1.1.0][dswx_s1_sas_1.1.0]  | [3.0.0][dswx_s1_pge_3.0.0]                                                   |
+| DSWx-NI      | 1.0             | expected 2026    |                             |                                                                              |
 
 
 The following table has links to files and supporting documentation for each product.
 
 | Product Name | Ancillaries | ATBD | Product Spec | Earthdata Search Link                      |
 | ------------ | ----------- | ---- | ------------ | ------------------------------------------ |
-| DSWx-HLS     |             | [DSWx-HLS ATBD][DSWx-HLS ATBD]     |              | [OPERA_L3_DSWX-HLS_V1][dswx_hls_earthdata] |
-| DSWx-S1      |             |      |              |                                            |
+| DSWx-HLS     |             | [DSWx-HLS ATBD][DSWx-HLS ATBD] | [DSWx-HLS Product Spec][DSWx-HLS Product Spec] | [OPERA_L3_DSWX-HLS_V1][dswx_hls_earthdata] |
+| DSWx-S1      |             |      | [DSWx-S1 Product Spec][DSWx-S1 Product Spec] | [OPERA_L3_DSWX-S1_V1][dswx_s1_earthdata] |
 | DSWx-NI      |             |      |              | expected 2026                                           |
 
 
@@ -88,24 +88,24 @@ The following table has links to files and supporting documentation for each pro
 | Product Name         | Ancillaries | ATBD | Product Spec                                             | ASF Landing Page Link                    |
 | -------------------- | ----------- | ---- | -------------------------------------------------------- | ---------------------------------------- |
 | RTC-S1               | [RTC S1 Bursts][RTC S1 Bursts]            |      | [RTC-S1 Product Spec][RTC-S1 Product Spec]               | [OPERA_L2_RTC-S1_V1][rtc_s1_data]        |
-| RTC-S1 Static Layers | [RTC S1 Bursts][RTC S1 Bursts]            |      | [RTC-S1-STATIC Product Spec][RTC-S1-STATIC Product Spec] | [OPERA_L2_RTC-S1-STATIC_V1][rtc_s1_data] |
+| RTC-S1 Static Layers | [RTC S1 Bursts][RTC S1 Bursts]            |      | [RTC-S1-STATIC Product Spec][RTC-S1-STATIC Product Spec] | [OPERA_L2_RTC-S1-STATIC_V1][rtc_s1_static_data] |
 
 ## Coregistered Single-Look Complex (CSLC) Products
 
 Product releases for the Coregistered Single-look Complex product suite.  Currently these products are only created from Sentinel-1 data (CSLC-S1).  You can find more information about these products here: [CSLC Product Suite](https://www.jpl.nasa.gov/go/opera/products/cslc-product-suite)
 
-| Product Name | Product Version | Release Date | SAS Version                | PGE Version                |
-| ------------ | --------------- | ------------ | -------------------------- | -------------------------- |
-| CSLC-S1      | 1.1             | 2024-04-01   | [0.5.5][cslc_s1_sas_0.5.5] | [2.1.1][cslc_s1_pge_2.1.1] |
-| CSLC-S1      | 1.0             | 2023-10-04   | [0.5.4][cslc_s1_sas_0.5.4] | [2.1.0][cslc_s1_pge_2.1.0] |
-    
+| Product Name | Product Version | Release Date | SAS Version                | PGE Version                                                            |
+| ------------ | --------------- | ------------ | -------------------------- | -------------------------------------------------------------------- |
+| CSLC-S1      | 1.1             | 2024-04-01   | [0.5.5][cslc_s1_sas_0.5.5] | [2.1.1 (docker)][cslc_s1_pge_docker_2.1.1] [2.1.1 (zip)][cslc_s1_pge_2.1.1] |
+| CSLC-S1      | 1.0             | 2023-10-04   | [0.5.4][cslc_s1_sas_0.5.4] | [2.1.0 (zip)][cslc_s1_pge_2.1.0]                                           |
+
 
 The following table has links to files and supporting documentation for each product.
 
 | Product Name          | Ancillaries | ATBD | Product Spec | ASF Landing Page Link                             |
 | --------------------- | ----------- | ---- | ------------ | ------------------------------------------------- |
-| CSLC-S1               | [CSLC S1 Bursts][CSLC S1 Ancillaries Bursts]            |      | [CSLC-S1 Product Spec][CSLC-S1 Product Spec]             | [OPERA_L2_CSLC-S1_V1][cslc_s1_data]               |
-| CSLC-S1 Static Layers | [CSLC S1 Bursts][CSLC S1 Ancillaries Bursts]            |      | [CSLC-S1-STATIC Product Spec][CSLC-S1-STATIC Product Spec]             | [OPERA_L2_CSLC-S1-STATIC_V1][cslc_s1_static_data] |
+| CSLC-S1               | [CSLC S1 Bursts][CSLC S1 Bursts]            |      | [CSLC-S1 Product Spec][CSLC-S1 Product Spec]             | [OPERA_L2_CSLC-S1_V1][cslc_s1_data]               |
+| CSLC-S1 Static Layers | [CSLC S1 Bursts][CSLC S1 Bursts]            |      | [CSLC-S1-STATIC Product Spec][CSLC-S1-STATIC Product Spec]             | [OPERA_L2_CSLC-S1-STATIC_V1][cslc_s1_static_data] |
 
 
 
