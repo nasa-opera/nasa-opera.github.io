@@ -42,8 +42,8 @@ Product releases for the Dynamic Surface Water eXtent product suite. Products wi
 
 | Product Name | Product Version | Release Date     | SAS Version                 | PGE Version                                                                    |
 | ------------ | --------------- | ---------------- | --------------------------- | ---------------------------------------------------------------------------- |
-| DSWx-HLS     | 1.0             | 2023-04-10       | [1.0.1][dswx_hls_sas_1.0.1] | [1.0.2 (docker)][dswx_hls_pge_docker_1.0.2] [1.0.2 (zip)][dswx_hls_pge_1.0.2] |
-| DSWx-S1      | 1.0             | 2024-08-16       | [1.1.0][dswx_s1_sas_1.1.0]  | [3.0.0][dswx_s1_pge_3.0.0]                                                   |
+| DSWx-HLS     | 1.0             | 2023-04-10       | [1.0.1 (zip)][dswx_hls_sas_1.0.1] | [1.0.2 (zip)][dswx_hls_pge_1.0.2] |
+| DSWx-S1      | 1.0             | 2024-08-16       | [1.1.0 (zip)][dswx_s1_sas_1.1.0]  | [3.0.0 (zip)][dswx_s1_pge_3.0.0]                                                   |
 | DSWx-NI      | 1.0             | expected 2026    |                             |                                                                              |
 
 
@@ -96,7 +96,7 @@ Product releases for the Coregistered Single-look Complex product suite.  Curren
 
 | Product Name | Product Version | Release Date | SAS Version                | PGE Version                                                            |
 | ------------ | --------------- | ------------ | -------------------------- | -------------------------------------------------------------------- |
-| CSLC-S1      | 1.1             | 2024-04-01   | [0.5.5][cslc_s1_sas_0.5.5] | [2.1.1 (docker)][cslc_s1_pge_docker_2.1.1] [2.1.1 (zip)][cslc_s1_pge_2.1.1] |
+| CSLC-S1      | 1.1             | 2024-04-01   | [0.5.5][cslc_s1_sas_0.5.5] | [2.1.1 (zip)][cslc_s1_pge_2.1.1] |
 | CSLC-S1      | 1.0             | 2023-10-04   | [0.5.4][cslc_s1_sas_0.5.4] | [2.1.0 (zip)][cslc_s1_pge_2.1.0]                                           |
 
 
