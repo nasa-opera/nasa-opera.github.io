@@ -43,7 +43,7 @@ Product releases for the Dynamic Surface Water eXtent product suite. Products wi
 | Product Name | Product Version | Release Date     | SAS Version                 | PGE Version                                                                    |
 | ------------ | --------------- | ---------------- | --------------------------- | ---------------------------------------------------------------------------- |
 | DSWx-HLS     | 1.0             | 2023-04-10       | [1.0.1 (zip)][dswx_hls_sas_1.0.1] | [1.0.2 (zip)][dswx_hls_pge_1.0.2] |
-| DSWx-S1      | 1.0             | 2024-08-16       | [1.1.0 (zip)][dswx_s1_sas_1.1.0]  | [3.0.0 (zip)][dswx_s1_pge_3.0.0]                                                   |
+| DSWx-S1      | 1.0             | 2024-08-16       | [1.1 (docker)][dswx_s1_sas_docker_1.1] [1.1 (zip)][dswx_s1_sas_1.1]  | [3.0.0 (zip)][dswx_s1_pge_3.0.0]                                                   |
 | DSWx-NI      | 1.0             | expected 2026    |                             |                                                                              |
 
 
@@ -80,6 +80,7 @@ Product releases for the Radiometric Terrain Corrected product suite.  Currently
 
 | Product Name | Product Version | Release Date | SAS Version                                                               | PGE Version                                                               |
 | ------------ | --------------- | ------------ | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| RTC-S1       | 1.0.4           | 2025-05-23   | [1.0.4 (docker)][rtc_s1_sas_docker_1.0.4] [1.0.4 (zip)][rtc_s1_sas_1.0.4] | *TBD* |
 | RTC-S1       | 1.0.2           | 2024-03-18   | [1.0.2 (docker)][rtc_s1_sas_docker_1.0.2] [1.0.2 (zip)][rtc_s1_sas_1.0.2] | [2.1.1 (docker)][rtc_s1_pge_docker_2.1.1] [2.1.1 (zip)][rtc_s1_pge_2.1.1] |
 
 
@@ -96,8 +97,9 @@ Product releases for the Coregistered Single-look Complex product suite.  Curren
 
 | Product Name | Product Version | Release Date | SAS Version                | PGE Version                                                            |
 | ------------ | --------------- | ------------ | -------------------------- | -------------------------------------------------------------------- |
-| CSLC-S1      | 1.1             | 2024-04-01   | [0.5.5][cslc_s1_sas_0.5.5] | [2.1.1 (zip)][cslc_s1_pge_2.1.1] |
-| CSLC-S1      | 1.0             | 2023-10-04   | [0.5.4][cslc_s1_sas_0.5.4] | [2.1.0 (zip)][cslc_s1_pge_2.1.0]                                           |
+| CSLC-S1      | 1.1             | 2025-05-02   | [0.5.6 (docker)][cslc_s1_sas_docker_0.5.6] [0.5.6 (zip)][cslc_s1_sas_0.5.6] | *TBD* |
+| CSLC-S1      | 1.1             | 2024-04-01   | [0.5.5 (zip)][cslc_s1_sas_0.5.5] | [2.1.1 (zip)][cslc_s1_pge_2.1.1] |
+| CSLC-S1      | 1.0             | 2023-10-04   | [0.5.4 (zip)][cslc_s1_sas_0.5.4] | [2.1.0 (zip)][cslc_s1_pge_2.1.0]                                           |
 
 
 The following table has links to files and supporting documentation for each product.
@@ -126,10 +128,15 @@ The following table has links to files and supporting documentation for each pro
 [dist_hls_sas_0.1.0]: https://github.com/gladumd/OPERA_DIST/releases/tag/v0.1.0
 [dswx_hls_sas_1.0.1]: https://github.com/nasa/PROTEUS/releases/tag/v1.0.1
 [dswx_hls_pge_1.0.2]: https://github.com/nasa/opera-sds-pge/releases/tag/1.0.2
-[dswx_s1_sas_1.1.0]: https://github.com/opera-adt/DSWX-SAR/releases/tag/v1.1
+
+[dswx_s1_sas_1.1]: https://github.com/opera-adt/DSWX-SAR/releases/tag/v1.1
 [dswx_s1_pge_3.0.0]: https://github.com/nasa/opera-sds-pge/releases/tag/3.0.0
+
+[rtc_s1_sas_1.0.4]: https://github.com/opera-adt/RTC/releases/tag/v1.0.4
 [rtc_s1_sas_1.0.2]: https://github.com/opera-adt/RTC/releases/tag/v1.0.2
 [rtc_s1_pge_2.1.1]: https://github.com/nasa/opera-sds-pge/releases/tag/2.1.1
+
+[cslc_s1_sas_0.5.6]: https://github.com/opera-adt/COMPASS/releases/tag/v0.5.6
 [cslc_s1_sas_0.5.5]: https://github.com/opera-adt/COMPASS/releases/tag/v0.5.5
 [cslc_s1_sas_0.5.4]: https://github.com/opera-adt/COMPASS/releases/tag/v0.5.4
 [cslc_s1_pge_2.1.1]: https://github.com/nasa/opera-sds-pge/releases/tag/2.1.1
@@ -137,9 +144,16 @@ The following table has links to files and supporting documentation for each pro
 
 <!-- Docker Image Links  -->
 [cslc_s1_pge_docker_2.1.1]: https://github.com/orgs/nasa/packages?repo_name=opera-sds-pge&version=2.1.1
-[rtc_s1_sas_docker_1.0.2]: https://github.com/opera-adt/RTC/pkgs/container/rtc-s1
+[cslc_s1_sas_docker_0.5.6]: https://github.com/opera-adt/COMPASS/pkgs/container/cslc_s1/453509430?tag=final_0.5.6
+
+[rtc_s1_sas_docker_1.0.4]: https://github.com/orgs/opera-adt/packages/container/rtc-s1/453506756?tag=final_1.0.4
+[rtc_s1_sas_docker_1.0.2]: https://github.com/opera-adt/RTC/pkgs/container/rtc-s1/402238290?tag=final_1.0.2
 [rtc_s1_pge_docker_2.1.1]: https://github.com/orgs/nasa/packages/container/package/opera-sds-pge%2Fopera_pge%2Frtc_s1
+
+[dswx_hls_sas_docker_1.0.2]: https://github.com/orgs/opera-adt/packages/container/dswx-s1/453512756?tag=final_patch_1.1
 [dswx_hls_pge_docker_1.0.2]: https://github.com/orgs/nasa/packages?repo_name=opera-sds-pge&version=1.0.2
+
+[dswx_s1_sas_docker_1.1]: https://github.com/opera-adt/DSWX-SAR/pkgs/container/dswx-s1/453512756?tag=final_patch_1.1
 
 <!-- Earthdata Search Links  -->
 [dist_alert_hls_earthdata]: https://lpdaac.usgs.gov/products/opera_l3_dist-alert-hls_v1v001/
