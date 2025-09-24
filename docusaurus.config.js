@@ -41,7 +41,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nasa-opera/nasa-opera.github.io/tree/main/',
+            'https://github.com/nasa-opera/website/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -52,7 +52,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nasa-opera/nasa-opera.github.io/tree/main/',
+            'https://github.com/nasa-opera/website/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -84,7 +84,7 @@ const config = {
           // {to: '/blog', label: 'News/Blog', position: 'left'},
           // {to: '/about', label: 'About', position: 'left'},
           {
-            href: 'https://github.com/nasa-opera/nasa-opera.github.io',
+            href: 'https://github.com/nasa-opera/website',
             label: 'GitHub',
             position: 'right',
           },
